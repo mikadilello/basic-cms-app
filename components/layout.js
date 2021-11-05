@@ -10,9 +10,9 @@ export default function Layout( { children, home } ) {
       <header>
         <nav>
           <h2>Headless CMS App</h2>
-          <a href="/"> Home </a>
-          <a href="/"> Github </a>
-          <a href="https://dev-cs55-13-site.pantheonsite.io/"> Wordpress Site </a>
+          <Link href="/"> Home </Link>
+          <Link href="https://github.com/mikadilello/basic-cms-app"> Github </Link>
+          <Link href="https://dev-cs55-13-site.pantheonsite.io/"> Wordpress Site </Link>
         </nav>
       </header>
       <main>{children}</main>
